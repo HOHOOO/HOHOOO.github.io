@@ -76,6 +76,3 @@ nodeppt generate ./演讲 ./slides -a
 2. Hosted on [GitHub Pages](http://jimmylv.github.io/).
 3. Hosted on [AWS S3](http://blog.jimmylv.info.s3-website-ap-southeast-1.amazonaws.com/).
 
-## License
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FJimmyLv%2Fjimmylv.github.io.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FJimmyLv%2Fjimmylv.github.io?ref=badge_large)
