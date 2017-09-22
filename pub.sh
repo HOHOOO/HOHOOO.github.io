@@ -15,13 +15,13 @@ cd publish
 jsName=$(ls static|grep \.js)
 #jsName="${jsName}?sign=$(date +%s)"
 echo "modfiy js filename to:$jsName"
-sed -i "s/build\.js/$jsName/g" ./index.html
+sed -i "" "s/build\.js/$jsName/g" ./index.html
 mv index.html 404.html
 echo "" > .gitignore
 git init
 git add .
 git commit -am "publish"
-git push --force --quiet https://github.com/Rozbo/blog.git master:gh-pages
+git push --force --quiet https://github.com/HOHOOO/HOHOOO.github.io.git master:gh-pages
 cd ../
 # 清理资源
 rm -rf ./publish

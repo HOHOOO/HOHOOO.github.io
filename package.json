@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rozbo/blog.git"
+    "url": "https://github.com/HOHOOO/HOHOOO.github.io.git"
   },
-  "author": "rozbo",
+  "author": "HOHOOO",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rozbo/blog/issues"
+    "url": "https://github.com/HOHOOO/HOHOOO.github.io/issues"
   },
-  "homepage": "https://blog.zz173.com",
+  "homepage": "https://HOHOOO.github.io",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -26,6 +26,7 @@
     "babel-runtime": "^6.26.0",
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
+    "file-loader": "^0.11.2",
     "style-loader": "^0.18.2",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
@@ -41,6 +42,7 @@
   "dependencies": {
     "marked": "^0.3.6",
     "prismjs": "^1.7.0",
+    "uglifyjs": "^2.4.11",
     "vue": "^2.4.4",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.1.1"
