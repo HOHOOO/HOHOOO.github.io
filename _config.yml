@@ -5,18 +5,18 @@ encoding: utf-8
 
 # 作者信息
 author: 
-  name: 吕立青
-  email: lv460051518@gmail.com
-  link: https://blog.jimmylv.info
+  name: 侯志伟
+  email: houzhiwei@yahoo.com
+  link: https://HOHOOO.github.io
   weibo: https://weibo.com/liqing215
   github: https://github.com/JimmyLv
   zhihu: https://www.zhihu.com/people/JimmyLv
 
 # 站点信息
-title: 吕立青的博客
+title: hoho
 description: My personal note-blog.
-url: https://blog.jimmylv.info
-repo: https://github.com/JimmyLv/jimmylv.github.io
+url: https://HOHOOO.github.io
+repo: https://github.com/HOHOOO/HOHOOO.github.io
 rss: /pages/atom.xml
 
 # gavatar头像及Favicon
@@ -47,7 +47,7 @@ locals:
   newest: 最新文章
   archive: 归档
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll/tagging
