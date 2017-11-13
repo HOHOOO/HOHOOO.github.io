@@ -1,9 +1,0 @@
-#hostname
-localhsot.localdomain
-
-#hostname pchost.com(ÁÙÊ±µÄ)
-
-
-vi /etc/sysconfig/network
-
-vi /etc/hosts
