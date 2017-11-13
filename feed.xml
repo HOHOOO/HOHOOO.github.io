@@ -4,8 +4,8 @@
         <description>我的博客.</description>
         <link>https://www.HOHOOO.github.io</link>
         <atom:link href="https://www.HOHOOO.github.io/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>2017-11-13 07:11:56</pubDate>
-        <lastBuildDate>2017-11-13 07:11:56</lastBuildDate>
+        <pubDate>2017-11-13 08:11:34</pubDate>
+        <lastBuildDate>2017-11-13 08:11:34</lastBuildDate>
         <generator>Gitblog v1.0</generator>
                 <item>
             <title>搭建Ruby环境（RVM+Ruby+Rails+Gems）</title>
