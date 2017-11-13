@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <!-- global key -->
+    <key>Label</key>
+    <string>com.houzhiwei.cron.dinner</string>
+    <!-- code and para -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>osascript</string>
+      <string>/Users/houzhiwei/dropbox/dropapp/dinner.scpt</string>
+    </array>
+    <!-- run time -->
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Minute</key>
+      <integer>0</integer>
+      <key>Hour</key>
+      <integer>16</integer>
+    </dict>
+    <!-- input -->
+    <key>StandardInPath</key>
+    <string>/Users/houzhiwei/dropbox/dropapp/log/run-in-dinner.log</string>
+    <!-- output -->
+    <key>StandardOutPath</key>
+    <string>/Users/houzhiwei/dropbox/dropapp/log/run-out-dinner.log</string>
+    <!-- error -->
+    <key>StandardErrorPath</key>
+    <string>/Users/houzhiwei/dropbox/dropapp/log/run-err-dinner.log</string>
+  </dict>
+</plist>
