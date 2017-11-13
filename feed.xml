@@ -4,8 +4,8 @@
         <description>我的博客.</description>
         <link>https://www.HOHOOO.github.io</link>
         <atom:link href="https://www.HOHOOO.github.io/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>2017-11-13 06:11:18</pubDate>
-        <lastBuildDate>2017-11-13 06:11:18</lastBuildDate>
+        <pubDate>2017-11-13 07:11:51</pubDate>
+        <lastBuildDate>2017-11-13 07:11:51</lastBuildDate>
         <generator>Gitblog v1.0</generator>
                 <item>
             <title>搭建Ruby环境（RVM+Ruby+Rails+Gems）</title>
@@ -17,7 +17,7 @@ title: 搭建Ruby环境（RVM+Ruby+Rails+Gems）
 tags: GitBlog
 category: GitBlog
 status: publish
-summary: GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。
+summary: 
 --&gt;
 &lt;h2&gt;搭建Ruby环境（RVM+Ruby+Rails+Gems）&lt;/h2&gt;
 &lt;h3&gt;1. 安装RVM&lt;/h3&gt;
@@ -127,9 +127,28 @@ run&lt;/code&gt;&lt;/pre&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&quot;//o7mw3gkkh.qnssl.com//public/img/tech/0926-1.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;//o7mw3gkkh.qnssl.com//public/img/tech/0926-2.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;            </description>
-            <pubDate>2017-11-13 06:31:45</pubDate>
+            <pubDate>2017-11-13 06:46:38</pubDate>
             <link>https://www.HOHOOO.github.io/blog/rubymine.html</link>
             <guid isPermaLink="true">https://www.HOHOOO.github.io/blog/rubymine.html</guid>
+                                               <category>GitBlog</category>
+                                    </item>
+                <item>
+            <title>Hello World!</title>
+            <description>
+            &lt;!--
+author: hohooo
+date: 2015-07-30
+title: Hello World!
+tags: GitBlog
+category: GitBlog
+status: publish
+summary: 你好！GitBlog
+--&gt;
+&lt;p&gt;你好！GitBlog&lt;/p&gt;
+&lt;p&gt;GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。&lt;/p&gt;            </description>
+            <pubDate>2017-11-13 06:52:21</pubDate>
+            <link>https://www.HOHOOO.github.io/blog/hello/hello.html</link>
+            <guid isPermaLink="true">https://www.HOHOOO.github.io/blog/hello/hello.html</guid>
                                                <category>GitBlog</category>
                                     </item>
             </channel>
