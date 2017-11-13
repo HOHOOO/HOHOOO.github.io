@@ -1,31 +1,27 @@
 <!DOCTYPE html>
-<html lang="zh-CN" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<meta name="keywords" content="GitBlog,HOHO,markdown,blog,github,HOHO BLOG">
-	<meta name="description" content="我的博客.">
 
-	<!--[if lt IE 9]>
-	<script src="/theme/default/js/html5.js"></script>
-	<![endif]-->
-	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
-	
-	<title>HOHO BLOG</title>
-	
-	<link rel="stylesheet" href="/theme/default/css/genericons.css?ver=2.2" type="text/css" media="all" />
-	<link rel="stylesheet" href="/theme/default/css/style.css?ver=2.2" type="text/css" media="all" />
-	<link rel="stylesheet" href="/theme/default/css/markdown.css?ver=2.2" type="text/css" media="all" />
-	<link rel="alternate" type="application/rss+xml" title="HOHO BLOG" href="/feed.xml" />
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" href="/theme/default/css/ie.css?ver=2.2" type="text/css" media="all" />
-	<![endif]-->
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" href="/theme/default/css/ie7.css?ver=2.2" type="text/css" media="all" />
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HOHO BLOG</title>
+    
+    <meta name="keywords" content="HOHO,markdown,blog,github">
+	<meta name="description" content="我的博客.">
+    <link rel="stylesheet" type="text/css" href="/theme/beach/css/style.css?ver=2.2">
+    <link rel="stylesheet" type="text/css" href="/theme/beach/css/markdown.css?ver=2.2">
+    <link rel="alternate" type="application/rss+xml" title="HOHO BLOG" href="/feed.xml" />
+    
+    <!--[if IE]>
+	<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 	
-	<script type="text/javascript" src="/theme/default/js/jquery/jquery.js?ver=2.2"></script>
-	<script type="text/javascript" src="/theme/default/js/jquery/jquery-migrate.min.js?ver=2.2"></script>
+    <!--[if IE 6]>
+	<script src="/theme/beach/js/belatedPNG.js"></script>
+	<script>
+    	DD_belatedPNG.fix('*');
+	</script>
+	<![endif]-->
 	
 	<script>
 	var _hmt = _hmt || [];
@@ -36,149 +32,78 @@
 	  s.parentNode.insertBefore(hm, s);
 	})();
 	</script>
-	
-</head>
+	</head>
 
 <body>
-<div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-	
-	    <div id="sidebar" class="sidebar">
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<h1 class="site-title"><a href="/" rel="home">HOHO BLOG</a></h1>
-				<p class="site-description">hoho</p>
-				<button class="secondary-toggle">菜单和挂件</button>
-		</div><!-- .site-branding -->
-	</header><!-- .site-header -->
-	<div id="secondary" class="secondary">
-		<div id="widget-area" class="widget-area" role="complementary">
-		
-			<aside id="categories" class="widget widget_categories">
-    <h2 class="widget-title">分类目录</h2>
+    <section id="page">
+        <div id="pagewrap">
+        		<section id="sidebar">
+	    <h2>分类</h2>
     <ul>
-                <li class="cat-item"><a href="/category/GitBlog.html" >GitBlog</a></li>
-            </ul>
-</aside>
-		    <aside class="widget widget_archive">
-    <h2 class="widget-title">文章归档</h2>
-    <ul>
-        <li><a href="/archive/201507.html">2015-07</a></li>
+            <li>
+            <a href="/category/GitBlog.html">GitBlog</a>
+        </li>
         </ul>
-</aside>
-		    <aside id="recent-posts" class="widget widget_recent_entries">
-    <h2 class="widget-title">近期文章</h2>
+        
+        <h2>标签</h2>
     <ul>
-        <li><a href="/blog/blog/rubymine.html">搭建Ruby环境（RVM+Ruby+Rails+Gems）</a></li>
-        <li><a href="/blog/blog/hello.html">Hello World!</a></li>
+            <li>
+            <a href="/tags/GitBlog.html">GitBlog</a>
+        </li>
         </ul>
-</aside>
-		    <aside id="tag_cloud" class="widget widget_tag_cloud">
-    <h2 class="widget-title">标签</h2>
-    <div class="tagcloud">
-        <a href="/tags/GitBlog.html" title="GitBlog" >GitBlog</a>
-        </div>
-</aside>
-		    <aside id="text" class="widget widget_text">
-    <h2 class="widget-title">简介</h2>	
-    <div class="textwidget">
-    	<p>GitBlog是一个简单易用的Markdown博客系统， 这是我的第一个GitBlog博客</p>
-    </div>
-</aside>
-	    </div><!-- .widget-area -->
-    </div><!-- .secondary -->
-</div><!-- .sidebar -->  
-	    <div id="content" class="site-content">
-	<div id="primary" class="content-area">
-        <div id="main" class="site-main" role="main">
-    	    	<header class="page-header">
-			<h1 class="page-title">标签：GitBlog</h1>
-		</header><!-- .page-header -->
-    	    	
-                	        	<article class="post hentry">
-<header class="entry-header">
-	<h2 class="entry-title"><a href="/blog/blog/rubymine.html" rel="bookmark">搭建Ruby环境（RVM+Ruby+Rails+Gems）</a></h2>
-</header><!-- .entry-header -->
-<div class="entry-content">
-这样安装之后rvm和ruby似乎是分开的，rvm无法使用和管理该版本的ruby
-</div><!-- .entry-content --><footer class="entry-footer">
-	    <span class="posted-on">
-        <span class="screen-reader-text">Posted on </span>
-        <time class="entry-date published">2015-07-31</time>
-    </span>
-		
-	    <span class="byline">
-        <span class="author vcard">
-            <span class="screen-reader-text">Author </span>
-            hoho
-        </span>
-    </span>
         
-        <span class="cat-links">
-        <span class="screen-reader-text">Categories </span>
-          
-           <a href="/category/GitBlog.html" rel="category">GitBlog</a>
-            </span>
-        
-    
-        <span class="tags-links">
-    	
-        <span class="screen-reader-text">Tags </span>
-          
-           <a href="/tags/GitBlog.html" rel="tag">GitBlog</a>
-            </span>
-    </footer><!-- .entry-footer --></article><!-- #post-## -->        	                	        	<article class="post hentry">
-<header class="entry-header">
-	<h2 class="entry-title"><a href="/blog/blog/hello.html" rel="bookmark">Hello World!</a></h2>
-</header><!-- .entry-header -->
-<div class="entry-content">
-<p>你好！GitBlog</p>
-</div><!-- .entry-content --><footer class="entry-footer">
-	    <span class="posted-on">
-        <span class="screen-reader-text">Posted on </span>
-        <time class="entry-date published">2015-07-30</time>
-    </span>
-		
-	    <span class="byline">
-        <span class="author vcard">
-            <span class="screen-reader-text">Author </span>
-            hohooo
-        </span>
-    </span>
-        
-        <span class="cat-links">
-        <span class="screen-reader-text">Categories </span>
-          
-           <a href="/category/GitBlog.html" rel="category">GitBlog</a>
-            </span>
-        
-    
-        <span class="tags-links">
-    	
-        <span class="screen-reader-text">Tags </span>
-          
-           <a href="/tags/GitBlog.html" rel="tag">GitBlog</a>
-            </span>
-    </footer><!-- .entry-footer --></article><!-- #post-## -->        	                
-                
-    	</div>
-    </div><!-- .content-area -->
-</div><!-- .site-content -->	    <footer id="colophon" class="site-footer" role="contentinfo">
-    <div class="site-info">
-        <a href="https://github.com/jockchou/gitblog">Proudly powered by Gitblog</a>
-    </div><!-- .site-info -->
-</footer><!-- .site-footer -->
+        <h2>归档</h2>
+    <ul>
+            <li>
+            <a href="/archive/201507.html">2015-07</a>
+        </li>
+        </ul>
+    </section>        	<section id="contents">
+	<header id="mainheader">
+		<h1><a href="/"><span>HOHO BLOG</span></a></h1>
+	</header>
 	
-</div><!-- .site -->
-<script type="text/javascript" src="/theme/default/js/skip-link-focus-fix.js?ver=2.2"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var screenReaderText = {"expand":"<span class=\"screen-reader-text\">\u5c55\u5f00\u5b50\u83dc\u5355<\/span>","collapse":"<span class=\"screen-reader-text\">\u6298\u53e0\u5b50\u83dc\u5355<\/span>"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="/theme/default/js/functions.js?ver=2.2"></script>
+		<section id="main">
+			<article class="post">
+    <header>
+    			<h2><a href="/blog/blog/rubymine.html" title="搭建Ruby环境（RVM+Ruby+Rails+Gems）">搭建Ruby环境（RVM+Ruby+Rails+Gems）</a></h2>
+		        <p class="postinfo">GitBlog | <time>2015-07-31</time> | by <i>hoho</i></p>
+    </header>
 
-<link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/8.6/styles/github.min.css">
+    <section class="entry">
+        <p>
+        		这样安装之后rvm和ruby似乎是分开的，rvm无法使用和管理该版本的ruby
+				</p>
+    </section>
+</article>		<article class="post">
+    <header>
+    			<h2><a href="/blog/blog/hello.html" title="Hello World!">Hello World!</a></h2>
+		        <p class="postinfo">GitBlog | <time>2015-07-30</time> | by <i>hohooo</i></p>
+    </header>
+
+    <section class="entry">
+        <p>
+        		<p>你好！GitBlog</p>
+				</p>
+    </section>
+</article>		                    
+	
+	<div class="wp-pagenavi">
+						<span class="current">1</span>
+		        </div>
+<div class="clear"></div>    </section>
+    
+    <footer id="pagefooter">
+    <div class="footerwrap">
+        <p class="siteinfo">Copyright &copy 2015 Gtiblog. All Rights Reserved. <a href="http://www.gitblog.cn">Proudly powered by Gitblog</a></p>
+    </div>
+</footer> 
+</section>
+        	<div class="clear"></div>
+        </div>
+    </section>
+
+<link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/8.6/styles/magula.min.css">
 <script src="//cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
